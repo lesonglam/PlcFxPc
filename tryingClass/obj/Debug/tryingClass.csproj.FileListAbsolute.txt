@@ -1,0 +1,13 @@
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\bin\Debug\tryingClass.exe.config
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\bin\Debug\tryingClass.exe
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\bin\Debug\tryingClass.pdb
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\bin\Debug\ConnectPLCFX.dll
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\bin\Debug\ConnectPLCFX.pdb
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\obj\Debug\tryingClass.csprojAssemblyReference.cache
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\obj\Debug\tryingClass.Form1.resources
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\obj\Debug\tryingClass.Properties.Resources.resources
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\obj\Debug\tryingClass.csproj.GenerateResource.cache
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\obj\Debug\tryingClass.csproj.CoreCompileInputs.cache
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\obj\Debug\tryingClass.csproj.CopyComplete
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\obj\Debug\tryingClass.exe
+C:\Users\LSL\Google Drive\Project 2018\CAD and C\PC PLC Mitsu FX -- 2104_1-20180805T024450Z-001\tryingClass\tryingClass\obj\Debug\tryingClass.pdb
