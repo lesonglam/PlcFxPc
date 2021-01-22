@@ -36,11 +36,13 @@
             this.textBoxw4 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(23, 14);
+            this.textBox1.Location = new System.Drawing.Point(174, 14);
             this.textBox1.Margin = new System.Windows.Forms.Padding(5);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -49,7 +51,7 @@
             // 
             // textBoxw1
             // 
-            this.textBoxw1.Location = new System.Drawing.Point(187, 14);
+            this.textBoxw1.Location = new System.Drawing.Point(347, 14);
             this.textBoxw1.Margin = new System.Windows.Forms.Padding(5);
             this.textBoxw1.Name = "textBoxw1";
             this.textBoxw1.Size = new System.Drawing.Size(109, 34);
@@ -59,7 +61,7 @@
             // 
             // textBoxw2
             // 
-            this.textBoxw2.Location = new System.Drawing.Point(187, 58);
+            this.textBoxw2.Location = new System.Drawing.Point(347, 58);
             this.textBoxw2.Margin = new System.Windows.Forms.Padding(5);
             this.textBoxw2.Name = "textBoxw2";
             this.textBoxw2.Size = new System.Drawing.Size(109, 34);
@@ -69,7 +71,7 @@
             // 
             // textBoxw3
             // 
-            this.textBoxw3.Location = new System.Drawing.Point(187, 102);
+            this.textBoxw3.Location = new System.Drawing.Point(347, 102);
             this.textBoxw3.Margin = new System.Windows.Forms.Padding(5);
             this.textBoxw3.Name = "textBoxw3";
             this.textBoxw3.Size = new System.Drawing.Size(109, 34);
@@ -79,7 +81,7 @@
             // 
             // textBoxw4
             // 
-            this.textBoxw4.Location = new System.Drawing.Point(187, 146);
+            this.textBoxw4.Location = new System.Drawing.Point(347, 146);
             this.textBoxw4.Margin = new System.Windows.Forms.Padding(5);
             this.textBoxw4.Name = "textBoxw4";
             this.textBoxw4.Size = new System.Drawing.Size(109, 34);
@@ -89,7 +91,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(184, 190);
+            this.button2.Location = new System.Drawing.Point(344, 190);
             this.button2.Margin = new System.Windows.Forms.Padding(5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 62);
@@ -102,11 +104,31 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(29, 22);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 37);
+            this.comboBox1.TabIndex = 7;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(29, 65);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 42);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Connect";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 288);
+            this.ClientSize = new System.Drawing.Size(531, 288);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBoxw4);
             this.Controls.Add(this.textBoxw3);
@@ -131,6 +153,8 @@
         private System.Windows.Forms.TextBox textBoxw4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

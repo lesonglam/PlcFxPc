@@ -36,9 +36,12 @@ namespace tryingClass
 
         private void Form1_Load(object sender, EventArgs e)
         {
-          connectPLCFX = new ConnectPLCFX.ConnectPLCFX("COM1", 9600, 7, StopBits.One , Parity.Even);
-          connectPLCFX.Connect();
-          timer1.Enabled = true;
+            string[] listPort  = System.IO.Ports.SerialPort.GetPortNames();
+            comboBox1.Sorted = true;
+            foreach(string a in listPort)
+            {
+                comboBox1.Items.Add(a);
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -55,6 +58,13 @@ namespace tryingClass
                 textBox1.Text += r[3].ToString() + "\r\n";
             }
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            connectPLCFX = new ConnectPLCFX.ConnectPLCFX(comboBox1.SelectedItem.ToString(), 9600, 7, StopBits.One, Parity.Even);
+            connectPLCFX.Connect();
+            timer1.Enabled = true;
         }
     }
 }
